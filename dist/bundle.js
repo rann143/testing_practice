@@ -1,6 +1,1 @@
-(() => {
-  const e = document.createElement("h1");
-  (e.textContent = "Hello There!"),
-    e.classList.add("blur-back"),
-    document.body.appendChild(e);
-})();
+(()=>{var e={244:(e,t)=>{t.capitalize=function(e){const t=e.split("");return t.splice(0,1,t[0].toUpperCase()),t.join("")}}},t={};function o(n){var r=t[n];if(void 0!==r)return r.exports;var a=t[n]={exports:{}};return e[n](a,a.exports,o),a.exports}(()=>{const e=o(244),t=document.createElement("h1");t.textContent="Hello There!",t.classList.add("blur-back"),document.body.appendChild(t),console.log(e.capitalize("daniel"))})()})();
